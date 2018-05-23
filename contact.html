@@ -11,45 +11,51 @@
 </head>
 <body>
     <!--Header which includes the logo and navigation links-->
-    <header>
-        <div class="header-content">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
             <!--Logo Div-->
             <div class="logo">
                 <h1>Ryan Udugampola</h1>
             </div>
     
             <!--Navigation Links-->
-            <nav>
-                <a href="index.html">About</a>|
-                <a href="portfolio.html">Portfolio</a>|
-                <a href="contact.html">Contact</a>
-            </nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
     <!--Main Container-->
-    <div class="main-container">
+    <div class="container-fluid">
             <!--Content Container-->
-            <div class="content-container">
+            <div class="container">
                 <!--Page Title at the top left of every content-container-->
                 <div class="content-title">
                     <h1>Contact</h1>
                 </div>
-                <div class="content clearfix">
-                    <div class="input-field">
-                        <h3>Name</h3>
-                        <input type="text" placeholder="John Smith">
+                <form>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Smith">
                     </div>
-                    <div class="input-field">
-                        <h3>Email</h3>
-                        <input type="text" placeholder="example@gmail.com">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
                     </div>
-                    <div class="input-field">
-                        <h3>Message</h3>
-                        <textarea rows="10"></textarea>
+                    <div class="form-group">
+                        <label for="Message">Message</label>
+                        <textarea class="form-control" id="message" rows="10"></textarea>
                     </div>
-                    <button>Submit</button>
-                </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     <footer>
