@@ -7,14 +7,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Ryan Udugampola - Portfolio</title>
 </head>
 <body>
     <!--Header which includes the logo and navigation links-->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <!--Logo Div-->
-            <div class="logo">
+             <!--Logo Div-->
+            <div class="navbar-brand">
                 <h1>Ryan Udugampola</h1>
             </div>
 
@@ -34,36 +35,41 @@
     </nav>
 
     <!--Main Container-->
-    <div class="container-fluid">
+    <div class="content">
         <!--Content Container-->
         <div class="container">
             <!--Page Title at the top left of every content-container-->
             <div class="content-title">
                 <h1>About</h1>
             </div>
-            <div class="content">
-                <img id="profile-picture" src="assets/images/headshot.JPG" alt="Photograph of Ryan" >
-                <p>
-                    I've often been called a man of many trades. Starting with my education in Mechanical Engineering
-                    from the University of Toronto, I always found a special interest in programming and excelled in everything related.
-                    As obvious as it seems now, at that time I never thought to take a step back and evaluate what I was good at. Instead I continued
-                    along the mechanical engineering path that I had laid out for myself because that was how it was "supposed" to happen.
-                </p>
-                <p>    
-                    Following graduation, I continued to tinker with Arudino programming and robotics as I looked for employment 
-                    in a completely unrelated field (a recurring theme in my road to becoming a developer). Along the way I picked up another degree
-                    in education becoming an Ontario Certified Teacher (OCT), gained specialized loss prevention knowledge while working for an insurance company,
-                    and became a carpenter/entrepreneur building kitchen cabinetry. 
-                </p>
-                <p>
-                    I like to think that the unrelated experience and knowledge I've gained gives me a unique perspective on software development and how it fits into different 
-                    industries from a user's and business owner's perspective...it's the only way I cope with the years I've missed out on programming! 
-                </p>
+            <!-- Page Content -->
+            <div class="row">
+                <div class='col-lg-12'>
+                    <img id='profile-picture' class="img-fluid float-left" src="assets/images/headshot.JPG" alt="Photograph of Ryan" >    
+                    <p>
+                        I've often been called a man of many trades. Starting with my education in Mechanical Engineering
+                        from the University of Toronto, I always found a special interest in programming and excelled in everything related.
+                        As obvious as it seems now, at that time I never thought to take a step back and evaluate what I was good at. Instead I continued
+                        along the mechanical engineering path that I had laid out for myself because that was how it was "supposed" to happen.
+                    </p>
+                    <p>    
+                        Following graduation, I continued to tinker with Arudino programming and robotics as I looked for employment 
+                        in a completely unrelated field (a recurring theme in my road to becoming a developer). Along the way I picked up another degree
+                        in education becoming an Ontario Certified Teacher (OCT), gained specialized loss prevention knowledge while working for an insurance company,
+                        and became a carpenter/entrepreneur building kitchen cabinetry. 
+                    </p>
+                    <p>
+                        I like to think that the unrelated experience and knowledge I've gained gives me a unique perspective on software development and how it fits into different 
+                        industries from a user's and business owner's perspective...it's the only way I cope with the years I've missed out on programming! 
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    <footer>
-        Copyright <i class="far fa-copyright"></i>
+    <footer class="footer">
+        <div class="container-fluid text-center">
+            Copyright <i class="far fa-copyright"></i>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,65 @@
+.img-fluid {
+    max-width: 20%;
+}
+
+#profile-picture {
+    padding-right: 10px;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+.content {
+    background-image: url('../images/funky-lines.png');
+    padding-top: 40px;
+}
+
+.content-title {
+    color: #4aaaa5;
+    height: 50px;
+    /* margin: 30px; */
+    border-bottom: 3px solid #cccccc;
+    /* padding-bottom: 25px;  */
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 90px;
+    border-bottom: 3px solid #cccccc
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 24px;
+    height: 90px;
+}
+
+h1 {
+    font-size:30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    color: white;
+    padding-top:25px;
+    border-top: 10px solid #4aaaa5;
+}
+
+html {
+    position: relative;
+    min-height:100%;
+    background-image: url('../images/funky-lines.png');
+}
+
+body {
+    margin-bottom:60px;
+}
+
+
