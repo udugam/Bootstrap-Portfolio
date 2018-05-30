@@ -1,9 +1,10 @@
 .img-fluid {
-    max-width: 20%;
+    /* max-width: 20%; */
 }
 
 #profile-picture {
     padding-right: 10px;
+    max-width: 20%
 }
 
 .container {
