@@ -75,6 +75,16 @@ body {
     flex-grow:0;
 }
 
+.project-title {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    padding:20px 0px;
+    bottom:80px;
+}
 
 
 
