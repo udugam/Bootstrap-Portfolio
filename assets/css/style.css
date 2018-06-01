@@ -27,7 +27,7 @@
 .navbar {
     background-color: #ffffff;
     height: 90px;
-    border-bottom: 3px solid #cccccc
+    border-bottom: 3px solid #cccccc;
 }
 
 .navbar-brand {
@@ -35,6 +35,10 @@
     color: white;
     padding: 24px;
     height: 87px;
+}
+
+.nav-link {
+    color: #8a8a8a;
 }
 
 h1 {
