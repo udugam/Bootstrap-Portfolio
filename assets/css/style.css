@@ -18,10 +18,10 @@
 
 .content-title {
     color: #4aaaa5;
-    height: 50px;
+    height: 80px;
     /* margin: 30px; */
     border-bottom: 3px solid #cccccc;
-    /* padding-bottom: 25px;  */
+    padding: 25px 0px; 
 }
 
 .navbar {
@@ -84,6 +84,10 @@ body {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     padding:20px 0px;
     bottom:80px;
+}
+
+.content-offset {
+    padding-top:20px;
 }
 
 
